@@ -1,0 +1,10 @@
+testmethod\Pharmeasy_plusmodule.class
+testmethod\Pharmeasy_footer.class
+testmethod\Pharmeasy_healthcare.class
+testmethod\Pharmeasy_homepage.class
+testmethod\Pharmeasy_footer1.class
+testpage\Pharmeasy_page.class
+testbase\Pharmeasy_base.class
+testmethod\Pharmeasy_signin.class
+Extentreports\ExtentTestNGIReporterListener.class
+testmethod\Pharmeasy_valuestore.class

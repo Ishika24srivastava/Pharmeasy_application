@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="testmethod.Pharmeasy_homepage">
+        <methods>
+          <include name="Flavour"/>
+          <include name="Quantity_Cofsils"/>
+          <include name="Fever_infection"/>
+          <include name="Medicine"/>
+          <include name="close"/>
+          <include name="Thyroid"/>
+          <include name="Women_care"/>
+          <include name="Home_pages"/>
+          <include name="Diabetes"/>
+          <include name="Search_medicine"/>
+          <include name="Add_cart"/>
+          <include name="Launch"/>
+          <include name="Skincare"/>
+          <include name="Vitamins"/>
+          <include name="Main_banner1"/>
+          <include name="Benadryl_search"/>
+          <include name="Quantity"/>
+          <include name="Health_blog"/>
+          <include name="Cofsils"/>
+          <include name="Nivea"/>
+          <include name="Full_Bodycheckups"/>
+          <include name="Add_cartCofsils"/>
+          <include name="Covid_care"/>
+        </methods>
+      </class> <!-- testmethod.Pharmeasy_homepage -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

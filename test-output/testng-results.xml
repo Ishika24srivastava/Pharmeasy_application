@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="10" passed="10" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-06-13T10:35:12 IST" name="Default suite" finished-at="2023-06-13T10:35:29 IST" duration-ms="16799">
+    <groups>
+    </groups>
+    <test started-at="2023-06-13T10:35:12 IST" name="Default test" finished-at="2023-06-13T10:35:29 IST" duration-ms="16799">
+      <class name="testmethod.Pharmeasy_valuestore">
+        <test-method is-config="true" signature="Launch()[pri:0, instance:testmethod.Pharmeasy_valuestore@1530c739]" started-at="2023-06-13T10:35:07 IST" name="Launch" finished-at="2023-06-13T10:35:12 IST" duration-ms="5269" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Launch -->
+        <test-method signature="ValueStore()[pri:1, instance:testmethod.Pharmeasy_valuestore@1530c739]" started-at="2023-06-13T10:35:12 IST" name="ValueStore" finished-at="2023-06-13T10:35:15 IST" duration-ms="2233" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValueStore -->
+        <test-method signature="Brand()[pri:2, instance:testmethod.Pharmeasy_valuestore@1530c739]" started-at="2023-06-13T10:35:15 IST" name="Brand" finished-at="2023-06-13T10:35:17 IST" duration-ms="2173" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Brand -->
+        <test-method signature="Brand_Everherb()[pri:3, instance:testmethod.Pharmeasy_valuestore@1530c739]" started-at="2023-06-13T10:35:17 IST" name="Brand_Everherb" finished-at="2023-06-13T10:35:18 IST" duration-ms="1109" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Brand_Everherb -->
+        <test-method signature="Price()[pri:4, instance:testmethod.Pharmeasy_valuestore@1530c739]" started-at="2023-06-13T10:35:18 IST" name="Price" finished-at="2023-06-13T10:35:20 IST" duration-ms="2181" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Price -->
+        <test-method signature="Clear_all()[pri:5, instance:testmethod.Pharmeasy_valuestore@1530c739]" started-at="2023-06-13T10:35:20 IST" name="Clear_all" finished-at="2023-06-13T10:35:21 IST" duration-ms="1109" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Clear_all -->
+        <test-method signature="Popularity()[pri:6, instance:testmethod.Pharmeasy_valuestore@1530c739]" started-at="2023-06-13T10:35:21 IST" name="Popularity" finished-at="2023-06-13T10:35:22 IST" duration-ms="1207" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Popularity -->
+        <test-method signature="Giloy()[pri:7, instance:testmethod.Pharmeasy_valuestore@1530c739]" started-at="2023-06-13T10:35:22 IST" name="Giloy" finished-at="2023-06-13T10:35:25 IST" duration-ms="2410" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Giloy -->
+        <test-method signature="Aloe_vera()[pri:8, instance:testmethod.Pharmeasy_valuestore@1530c739]" started-at="2023-06-13T10:35:25 IST" name="Aloe_vera" finished-at="2023-06-13T10:35:26 IST" duration-ms="1052" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Aloe_vera -->
+        <test-method signature="Offers()[pri:9, instance:testmethod.Pharmeasy_valuestore@1530c739]" started-at="2023-06-13T10:35:26 IST" name="Offers" finished-at="2023-06-13T10:35:27 IST" duration-ms="1114" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Offers -->
+        <test-method signature="Description()[pri:10, instance:testmethod.Pharmeasy_valuestore@1530c739]" started-at="2023-06-13T10:35:27 IST" name="Description" finished-at="2023-06-13T10:35:29 IST" duration-ms="2172" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Description -->
+        <test-method is-config="true" signature="EndTest()[pri:0, instance:testmethod.Pharmeasy_valuestore@1530c739]" started-at="2023-06-13T10:35:29 IST" name="EndTest" finished-at="2023-06-13T10:35:29 IST" duration-ms="241" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EndTest -->
+      </class> <!-- testmethod.Pharmeasy_valuestore -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

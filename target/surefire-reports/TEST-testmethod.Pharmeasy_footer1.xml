@@ -1,0 +1,946 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="testmethod.Pharmeasy_footer1" time="111.26" tests="32" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="17"/>
+    <property name="webdriver.chrome.driver" value="C:\Users\isrivastava\.cache\selenium\chromedriver\win32\113.0.5672.63\chromedriver.exe"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\isrivastava\eclipse-workspace\Pharmeasy_module\target\test-classes;C:\Users\isrivastava\eclipse-workspace\Pharmeasy_module\target\classes;C:\Users\isrivastava\.m2\repository\org\seleniumhq\selenium\selenium-java\4.8.2\selenium-java-4.8.2.jar;C:\Users\isrivastava\.m2\repository\org\seleniumhq\selenium\selenium-api\4.8.2\selenium-api-4.8.2.jar;C:\Users\isrivastava\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.8.2\selenium-chrome-driver-4.8.2.jar;C:\Users\isrivastava\.m2\repository\com\google\auto\service\auto-service-annotations\1.0.1\auto-service-annotations-1.0.1.jar;C:\Users\isrivastava\.m2\repository\com\google\auto\service\auto-service\1.0.1\auto-service-1.0.1.jar;C:\Users\isrivastava\.m2\repository\com\google\auto\auto-common\1.2\auto-common-1.2.jar;C:\Users\isrivastava\.m2\repository\com\google\guava\guava\31.1-jre\guava-31.1-jre.jar;C:\Users\isrivastava\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\isrivastava\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\isrivastava\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\isrivastava\.m2\repository\org\checkerframework\checker-qual\3.12.0\checker-qual-3.12.0.jar;C:\Users\isrivastava\.m2\repository\com\google\errorprone\error_prone_annotations\2.11.0\error_prone_annotations-2.11.0.jar;C:\Users\isrivastava\.m2\repository\com\google\j2objc\j2objc-annotations\1.3\j2objc-annotations-1.3.jar;C:\Users\isrivastava\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.8.2\selenium-chromium-driver-4.8.2.jar;C:\Users\isrivastava\.m2\repository\org\seleniumhq\selenium\selenium-json\4.8.2\selenium-json-4.8.2.jar;C:\Users\isrivastava\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.8.2\selenium-manager-4.8.2.jar;C:\Users\isrivastava\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v109\4.8.2\selenium-devtools-v109-4.8.2.jar;C:\Users\isrivastava\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v110\4.8.2\selenium-devtools-v110-4.8.2.jar;C:\Users\isrivastava\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v111\4.8.2\selenium-devtools-v111-4.8.2.jar;C:\Users\isrivastava\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.8.2\selenium-devtools-v85-4.8.2.jar;C:\Users\isrivastava\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.8.2\selenium-edge-driver-4.8.2.jar;C:\Users\isrivastava\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.8.2\selenium-firefox-driver-4.8.2.jar;C:\Users\isrivastava\.m2\repository\org\seleniumhq\selenium\selenium-http\4.8.2\selenium-http-4.8.2.jar;C:\Users\isrivastava\.m2\repository\dev\failsafe\failsafe\3.3.1\failsafe-3.3.1.jar;C:\Users\isrivastava\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.8.2\selenium-ie-driver-4.8.2.jar;C:\Users\isrivastava\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.8.2\selenium-remote-driver-4.8.2.jar;C:\Users\isrivastava\.m2\repository\io\netty\netty-buffer\4.1.90.Final\netty-buffer-4.1.90.Final.jar;C:\Users\isrivastava\.m2\repository\io\netty\netty-codec-http\4.1.90.Final\netty-codec-http-4.1.90.Final.jar;C:\Users\isrivastava\.m2\repository\io\netty\netty-codec\4.1.90.Final\netty-codec-4.1.90.Final.jar;C:\Users\isrivastava\.m2\repository\io\netty\netty-handler\4.1.90.Final\netty-handler-4.1.90.Final.jar;C:\Users\isrivastava\.m2\repository\io\netty\netty-common\4.1.90.Final\netty-common-4.1.90.Final.jar;C:\Users\isrivastava\.m2\repository\io\netty\netty-transport-classes-epoll\4.1.90.Final\netty-transport-classes-epoll-4.1.90.Final.jar;C:\Users\isrivastava\.m2\repository\io\netty\netty-transport-classes-kqueue\4.1.90.Final\netty-transport-classes-kqueue-4.1.90.Final.jar;C:\Users\isrivastava\.m2\repository\io\netty\netty-transport-native-epoll\4.1.90.Final\netty-transport-native-epoll-4.1.90.Final.jar;C:\Users\isrivastava\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.90.Final\netty-transport-native-kqueue-4.1.90.Final.jar;C:\Users\isrivastava\.m2\repository\io\netty\netty-transport-native-unix-common\4.1.90.Final\netty-transport-native-unix-common-4.1.90.Final.jar;C:\Users\isrivastava\.m2\repository\io\netty\netty-transport\4.1.90.Final\netty-transport-4.1.90.Final.jar;C:\Users\isrivastava\.m2\repository\io\netty\netty-resolver\4.1.90.Final\netty-resolver-4.1.90.Final.jar;C:\Users\isrivastava\.m2\repository\io\opentelemetry\opentelemetry-api\1.24.0\opentelemetry-api-1.24.0.jar;C:\Users\isrivastava\.m2\repository\io\opentelemetry\opentelemetry-context\1.24.0\opentelemetry-context-1.24.0.jar;C:\Users\isrivastava\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.24.0\opentelemetry-exporter-logging-1.24.0.jar;C:\Users\isrivastava\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.24.0\opentelemetry-sdk-metrics-1.24.0.jar;C:\Users\isrivastava\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.24.0-alpha\opentelemetry-sdk-logs-1.24.0-alpha.jar;C:\Users\isrivastava\.m2\repository\io\opentelemetry\opentelemetry-api-logs\1.24.0-alpha\opentelemetry-api-logs-1.24.0-alpha.jar;C:\Users\isrivastava\.m2\repository\io\opentelemetry\opentelemetry-api-events\1.24.0-alpha\opentelemetry-api-events-1.24.0-alpha.jar;C:\Users\isrivastava\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.24.0\opentelemetry-sdk-common-1.24.0.jar;C:\Users\isrivastava\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.24.0\opentelemetry-sdk-extension-autoconfigure-spi-1.24.0.jar;C:\Users\isrivastava\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.24.0-alpha\opentelemetry-sdk-extension-autoconfigure-1.24.0-alpha.jar;C:\Users\isrivastava\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.24.0\opentelemetry-sdk-trace-1.24.0.jar;C:\Users\isrivastava\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.24.0\opentelemetry-sdk-1.24.0.jar;C:\Users\isrivastava\.m2\repository\io\opentelemetry\opentelemetry-semconv\1.24.0-alpha\opentelemetry-semconv-1.24.0-alpha.jar;C:\Users\isrivastava\.m2\repository\io\ous\jtoml\2.0.0\jtoml-2.0.0.jar;C:\Users\isrivastava\.m2\repository\net\bytebuddy\byte-buddy\1.14.2\byte-buddy-1.14.2.jar;C:\Users\isrivastava\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\isrivastava\.m2\repository\org\asynchttpclient\async-http-client\2.12.3\async-http-client-2.12.3.jar;C:\Users\isrivastava\.m2\repository\org\asynchttpclient\async-http-client-netty-utils\2.12.3\async-http-client-netty-utils-2.12.3.jar;C:\Users\isrivastava\.m2\repository\io\netty\netty-codec-socks\4.1.60.Final\netty-codec-socks-4.1.60.Final.jar;C:\Users\isrivastava\.m2\repository\io\netty\netty-handler-proxy\4.1.60.Final\netty-handler-proxy-4.1.60.Final.jar;C:\Users\isrivastava\.m2\repository\io\netty\netty-transport-native-epoll\4.1.60.Final\netty-transport-native-epoll-4.1.60.Final-linux-x86_64.jar;C:\Users\isrivastava\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.60.Final\netty-transport-native-kqueue-4.1.60.Final-osx-x86_64.jar;C:\Users\isrivastava\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar;C:\Users\isrivastava\.m2\repository\com\typesafe\netty\netty-reactive-streams\2.0.4\netty-reactive-streams-2.0.4.jar;C:\Users\isrivastava\.m2\repository\com\sun\activation\jakarta.activation\1.2.2\jakarta.activation-1.2.2.jar;C:\Users\isrivastava\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.8.2\selenium-safari-driver-4.8.2.jar;C:\Users\isrivastava\.m2\repository\org\seleniumhq\selenium\selenium-support\4.8.2\selenium-support-4.8.2.jar;C:\Users\isrivastava\.m2\repository\org\testng\testng\7.7.1\testng-7.7.1.jar;C:\Users\isrivastava\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\isrivastava\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\isrivastava\.m2\repository\org\webjars\jquery\3.6.1\jquery-3.6.1.jar;C:\Users\isrivastava\.m2\repository\com\relevantcodes\extentreports\2.41.2\extentreports-2.41.2.jar;C:\Users\isrivastava\.m2\repository\org\jsoup\jsoup\1.8.3\jsoup-1.8.3.jar;C:\Users\isrivastava\.m2\repository\org\xerial\sqlite-jdbc\3.8.11.1\sqlite-jdbc-3.8.11.1.jar;C:\Users\isrivastava\.m2\repository\org\freemarker\freemarker\2.3.23\freemarker-2.3.23.jar;C:\Users\isrivastava\.m2\repository\org\mongodb\mongodb-driver\3.0.4\mongodb-driver-3.0.4.jar;C:\Users\isrivastava\.m2\repository\org\mongodb\bson\3.0.4\bson-3.0.4.jar;C:\Users\isrivastava\.m2\repository\org\mongodb\mongodb-driver-core\3.0.4\mongodb-driver-core-3.0.4.jar;C:\Users\isrivastava\.m2\repository\io\github\bonigarcia\webdrivermanager\5.3.2\webdrivermanager-5.3.2.jar;C:\Users\isrivastava\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;C:\Users\isrivastava\.m2\repository\com\github\docker-java\docker-java\3.2.14\docker-java-3.2.14.jar;C:\Users\isrivastava\.m2\repository\com\github\docker-java\docker-java-core\3.2.14\docker-java-core-3.2.14.jar;C:\Users\isrivastava\.m2\repository\com\github\docker-java\docker-java-api\3.2.14\docker-java-api-3.2.14.jar;C:\Users\isrivastava\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.10.3\jackson-annotations-2.10.3.jar;C:\Users\isrivastava\.m2\repository\commons-io\commons-io\2.6\commons-io-2.6.jar;C:\Users\isrivastava\.m2\repository\org\apache\commons\commons-compress\1.21\commons-compress-1.21.jar;C:\Users\isrivastava\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.10.3\jackson-databind-2.10.3.jar;C:\Users\isrivastava\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.10.3\jackson-core-2.10.3.jar;C:\Users\isrivastava\.m2\repository\org\bouncycastle\bcpkix-jdk15on\1.64\bcpkix-jdk15on-1.64.jar;C:\Users\isrivastava\.m2\repository\org\bouncycastle\bcprov-jdk15on\1.64\bcprov-jdk15on-1.64.jar;C:\Users\isrivastava\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar;C:\Users\isrivastava\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.2.14\docker-java-transport-httpclient5-3.2.14.jar;C:\Users\isrivastava\.m2\repository\com\github\docker-java\docker-java-transport\3.2.14\docker-java-transport-3.2.14.jar;C:\Users\isrivastava\.m2\repository\net\java\dev\jna\jna\5.12.1\jna-5.12.1.jar;C:\Users\isrivastava\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;C:\Users\isrivastava\.m2\repository\org\apache\commons\commons-lang3\3.12.0\commons-lang3-3.12.0.jar;C:\Users\isrivastava\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.2.1\httpclient5-5.2.1.jar;C:\Users\isrivastava\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.2\httpcore5-5.2.jar;C:\Users\isrivastava\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.2\httpcore5-h2-5.2.jar;C:\Users\isrivastava\.m2\repository\com\aventstack\extentreports\3.0.6\extentreports-3.0.6.jar;C:\Users\isrivastava\.m2\repository\org\apache\httpcomponents\httpclient\4.5.2\httpclient-4.5.2.jar;C:\Users\isrivastava\.m2\repository\org\apache\httpcomponents\httpcore\4.4.4\httpcore-4.4.4.jar;C:\Users\isrivastava\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\isrivastava\.m2\repository\commons-codec\commons-codec\1.9\commons-codec-1.9.jar;C:\Users\isrivastava\.m2\repository\org\apache\httpcomponents\httpmime\4.5.2\httpmime-4.5.2.jar;"/>
+    <property name="java.vm.vendor" value="Eclipse Adoptium"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://adoptium.net/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="D:\workspace\eclipse\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.5.v20221102-0933\jre\bin"/>
+    <property name="sun.java.command" value="C:\Users\isrivastava\AppData\Local\Temp\surefire2343976422361713745\surefirebooter14173954103181052804.jar C:\Users\isrivastava\AppData\Local\Temp\surefire2343976422361713745 2023-05-25T17-34-31_813-jvmRun1 surefire15419969498326943334tmp surefire_010200340711589170482tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\isrivastava\eclipse-workspace\Pharmeasy_module\target\test-classes;C:\Users\isrivastava\eclipse-workspace\Pharmeasy_module\target\classes;C:\Users\isrivastava\.m2\repository\org\seleniumhq\selenium\selenium-java\4.8.2\selenium-java-4.8.2.jar;C:\Users\isrivastava\.m2\repository\org\seleniumhq\selenium\selenium-api\4.8.2\selenium-api-4.8.2.jar;C:\Users\isrivastava\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.8.2\selenium-chrome-driver-4.8.2.jar;C:\Users\isrivastava\.m2\repository\com\google\auto\service\auto-service-annotations\1.0.1\auto-service-annotations-1.0.1.jar;C:\Users\isrivastava\.m2\repository\com\google\auto\service\auto-service\1.0.1\auto-service-1.0.1.jar;C:\Users\isrivastava\.m2\repository\com\google\auto\auto-common\1.2\auto-common-1.2.jar;C:\Users\isrivastava\.m2\repository\com\google\guava\guava\31.1-jre\guava-31.1-jre.jar;C:\Users\isrivastava\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\isrivastava\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\isrivastava\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\isrivastava\.m2\repository\org\checkerframework\checker-qual\3.12.0\checker-qual-3.12.0.jar;C:\Users\isrivastava\.m2\repository\com\google\errorprone\error_prone_annotations\2.11.0\error_prone_annotations-2.11.0.jar;C:\Users\isrivastava\.m2\repository\com\google\j2objc\j2objc-annotations\1.3\j2objc-annotations-1.3.jar;C:\Users\isrivastava\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.8.2\selenium-chromium-driver-4.8.2.jar;C:\Users\isrivastava\.m2\repository\org\seleniumhq\selenium\selenium-json\4.8.2\selenium-json-4.8.2.jar;C:\Users\isrivastava\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.8.2\selenium-manager-4.8.2.jar;C:\Users\isrivastava\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v109\4.8.2\selenium-devtools-v109-4.8.2.jar;C:\Users\isrivastava\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v110\4.8.2\selenium-devtools-v110-4.8.2.jar;C:\Users\isrivastava\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v111\4.8.2\selenium-devtools-v111-4.8.2.jar;C:\Users\isrivastava\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.8.2\selenium-devtools-v85-4.8.2.jar;C:\Users\isrivastava\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.8.2\selenium-edge-driver-4.8.2.jar;C:\Users\isrivastava\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.8.2\selenium-firefox-driver-4.8.2.jar;C:\Users\isrivastava\.m2\repository\org\seleniumhq\selenium\selenium-http\4.8.2\selenium-http-4.8.2.jar;C:\Users\isrivastava\.m2\repository\dev\failsafe\failsafe\3.3.1\failsafe-3.3.1.jar;C:\Users\isrivastava\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.8.2\selenium-ie-driver-4.8.2.jar;C:\Users\isrivastava\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.8.2\selenium-remote-driver-4.8.2.jar;C:\Users\isrivastava\.m2\repository\io\netty\netty-buffer\4.1.90.Final\netty-buffer-4.1.90.Final.jar;C:\Users\isrivastava\.m2\repository\io\netty\netty-codec-http\4.1.90.Final\netty-codec-http-4.1.90.Final.jar;C:\Users\isrivastava\.m2\repository\io\netty\netty-codec\4.1.90.Final\netty-codec-4.1.90.Final.jar;C:\Users\isrivastava\.m2\repository\io\netty\netty-handler\4.1.90.Final\netty-handler-4.1.90.Final.jar;C:\Users\isrivastava\.m2\repository\io\netty\netty-common\4.1.90.Final\netty-common-4.1.90.Final.jar;C:\Users\isrivastava\.m2\repository\io\netty\netty-transport-classes-epoll\4.1.90.Final\netty-transport-classes-epoll-4.1.90.Final.jar;C:\Users\isrivastava\.m2\repository\io\netty\netty-transport-classes-kqueue\4.1.90.Final\netty-transport-classes-kqueue-4.1.90.Final.jar;C:\Users\isrivastava\.m2\repository\io\netty\netty-transport-native-epoll\4.1.90.Final\netty-transport-native-epoll-4.1.90.Final.jar;C:\Users\isrivastava\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.90.Final\netty-transport-native-kqueue-4.1.90.Final.jar;C:\Users\isrivastava\.m2\repository\io\netty\netty-transport-native-unix-common\4.1.90.Final\netty-transport-native-unix-common-4.1.90.Final.jar;C:\Users\isrivastava\.m2\repository\io\netty\netty-transport\4.1.90.Final\netty-transport-4.1.90.Final.jar;C:\Users\isrivastava\.m2\repository\io\netty\netty-resolver\4.1.90.Final\netty-resolver-4.1.90.Final.jar;C:\Users\isrivastava\.m2\repository\io\opentelemetry\opentelemetry-api\1.24.0\opentelemetry-api-1.24.0.jar;C:\Users\isrivastava\.m2\repository\io\opentelemetry\opentelemetry-context\1.24.0\opentelemetry-context-1.24.0.jar;C:\Users\isrivastava\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.24.0\opentelemetry-exporter-logging-1.24.0.jar;C:\Users\isrivastava\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.24.0\opentelemetry-sdk-metrics-1.24.0.jar;C:\Users\isrivastava\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.24.0-alpha\opentelemetry-sdk-logs-1.24.0-alpha.jar;C:\Users\isrivastava\.m2\repository\io\opentelemetry\opentelemetry-api-logs\1.24.0-alpha\opentelemetry-api-logs-1.24.0-alpha.jar;C:\Users\isrivastava\.m2\repository\io\opentelemetry\opentelemetry-api-events\1.24.0-alpha\opentelemetry-api-events-1.24.0-alpha.jar;C:\Users\isrivastava\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.24.0\opentelemetry-sdk-common-1.24.0.jar;C:\Users\isrivastava\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.24.0\opentelemetry-sdk-extension-autoconfigure-spi-1.24.0.jar;C:\Users\isrivastava\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.24.0-alpha\opentelemetry-sdk-extension-autoconfigure-1.24.0-alpha.jar;C:\Users\isrivastava\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.24.0\opentelemetry-sdk-trace-1.24.0.jar;C:\Users\isrivastava\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.24.0\opentelemetry-sdk-1.24.0.jar;C:\Users\isrivastava\.m2\repository\io\opentelemetry\opentelemetry-semconv\1.24.0-alpha\opentelemetry-semconv-1.24.0-alpha.jar;C:\Users\isrivastava\.m2\repository\io\ous\jtoml\2.0.0\jtoml-2.0.0.jar;C:\Users\isrivastava\.m2\repository\net\bytebuddy\byte-buddy\1.14.2\byte-buddy-1.14.2.jar;C:\Users\isrivastava\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\isrivastava\.m2\repository\org\asynchttpclient\async-http-client\2.12.3\async-http-client-2.12.3.jar;C:\Users\isrivastava\.m2\repository\org\asynchttpclient\async-http-client-netty-utils\2.12.3\async-http-client-netty-utils-2.12.3.jar;C:\Users\isrivastava\.m2\repository\io\netty\netty-codec-socks\4.1.60.Final\netty-codec-socks-4.1.60.Final.jar;C:\Users\isrivastava\.m2\repository\io\netty\netty-handler-proxy\4.1.60.Final\netty-handler-proxy-4.1.60.Final.jar;C:\Users\isrivastava\.m2\repository\io\netty\netty-transport-native-epoll\4.1.60.Final\netty-transport-native-epoll-4.1.60.Final-linux-x86_64.jar;C:\Users\isrivastava\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.60.Final\netty-transport-native-kqueue-4.1.60.Final-osx-x86_64.jar;C:\Users\isrivastava\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar;C:\Users\isrivastava\.m2\repository\com\typesafe\netty\netty-reactive-streams\2.0.4\netty-reactive-streams-2.0.4.jar;C:\Users\isrivastava\.m2\repository\com\sun\activation\jakarta.activation\1.2.2\jakarta.activation-1.2.2.jar;C:\Users\isrivastava\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.8.2\selenium-safari-driver-4.8.2.jar;C:\Users\isrivastava\.m2\repository\org\seleniumhq\selenium\selenium-support\4.8.2\selenium-support-4.8.2.jar;C:\Users\isrivastava\.m2\repository\org\testng\testng\7.7.1\testng-7.7.1.jar;C:\Users\isrivastava\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\isrivastava\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\isrivastava\.m2\repository\org\webjars\jquery\3.6.1\jquery-3.6.1.jar;C:\Users\isrivastava\.m2\repository\com\relevantcodes\extentreports\2.41.2\extentreports-2.41.2.jar;C:\Users\isrivastava\.m2\repository\org\jsoup\jsoup\1.8.3\jsoup-1.8.3.jar;C:\Users\isrivastava\.m2\repository\org\xerial\sqlite-jdbc\3.8.11.1\sqlite-jdbc-3.8.11.1.jar;C:\Users\isrivastava\.m2\repository\org\freemarker\freemarker\2.3.23\freemarker-2.3.23.jar;C:\Users\isrivastava\.m2\repository\org\mongodb\mongodb-driver\3.0.4\mongodb-driver-3.0.4.jar;C:\Users\isrivastava\.m2\repository\org\mongodb\bson\3.0.4\bson-3.0.4.jar;C:\Users\isrivastava\.m2\repository\org\mongodb\mongodb-driver-core\3.0.4\mongodb-driver-core-3.0.4.jar;C:\Users\isrivastava\.m2\repository\io\github\bonigarcia\webdrivermanager\5.3.2\webdrivermanager-5.3.2.jar;C:\Users\isrivastava\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;C:\Users\isrivastava\.m2\repository\com\github\docker-java\docker-java\3.2.14\docker-java-3.2.14.jar;C:\Users\isrivastava\.m2\repository\com\github\docker-java\docker-java-core\3.2.14\docker-java-core-3.2.14.jar;C:\Users\isrivastava\.m2\repository\com\github\docker-java\docker-java-api\3.2.14\docker-java-api-3.2.14.jar;C:\Users\isrivastava\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.10.3\jackson-annotations-2.10.3.jar;C:\Users\isrivastava\.m2\repository\commons-io\commons-io\2.6\commons-io-2.6.jar;C:\Users\isrivastava\.m2\repository\org\apache\commons\commons-compress\1.21\commons-compress-1.21.jar;C:\Users\isrivastava\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.10.3\jackson-databind-2.10.3.jar;C:\Users\isrivastava\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.10.3\jackson-core-2.10.3.jar;C:\Users\isrivastava\.m2\repository\org\bouncycastle\bcpkix-jdk15on\1.64\bcpkix-jdk15on-1.64.jar;C:\Users\isrivastava\.m2\repository\org\bouncycastle\bcprov-jdk15on\1.64\bcprov-jdk15on-1.64.jar;C:\Users\isrivastava\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar;C:\Users\isrivastava\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.2.14\docker-java-transport-httpclient5-3.2.14.jar;C:\Users\isrivastava\.m2\repository\com\github\docker-java\docker-java-transport\3.2.14\docker-java-transport-3.2.14.jar;C:\Users\isrivastava\.m2\repository\net\java\dev\jna\jna\5.12.1\jna-5.12.1.jar;C:\Users\isrivastava\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;C:\Users\isrivastava\.m2\repository\org\apache\commons\commons-lang3\3.12.0\commons-lang3-3.12.0.jar;C:\Users\isrivastava\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.2.1\httpclient5-5.2.1.jar;C:\Users\isrivastava\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.2\httpcore5-5.2.jar;C:\Users\isrivastava\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.2\httpcore5-h2-5.2.jar;C:\Users\isrivastava\.m2\repository\com\aventstack\extentreports\3.0.6\extentreports-3.0.6.jar;C:\Users\isrivastava\.m2\repository\org\apache\httpcomponents\httpclient\4.5.2\httpclient-4.5.2.jar;C:\Users\isrivastava\.m2\repository\org\apache\httpcomponents\httpcore\4.4.4\httpcore-4.4.4.jar;C:\Users\isrivastava\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\isrivastava\.m2\repository\commons-codec\commons-codec\1.9\commons-codec-1.9.jar;C:\Users\isrivastava\.m2\repository\org\apache\httpcomponents\httpmime\4.5.2\httpmime-4.5.2.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\isrivastava"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2022-10-18"/>
+    <property name="java.home" value="D:\workspace\eclipse\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.5.v20221102-0933\jre"/>
+    <property name="file.separator" value="\"/>
+    <property name="style.color" value="always"/>
+    <property name="basedir" value="C:\Users\isrivastava\eclipse-workspace\Pharmeasy_module"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\isrivastava\AppData\Local\Temp\surefire2343976422361713745\surefirebooter14173954103181052804.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="17.0.5+8"/>
+    <property name="user.name" value="isrivastava"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Temurin-17.0.5+8"/>
+    <property name="localRepository" value="C:\Users\isrivastava\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/adoptium/adoptium-support/issues"/>
+    <property name="java.io.tmpdir" value="C:\Users\ISRIVA~1\AppData\Local\Temp\"/>
+    <property name="java.version" value="17.0.5"/>
+    <property name="user.dir" value="C:\Users\isrivastava\eclipse-workspace\Pharmeasy_module"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="D:\workspace\eclipse\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.5.v20221102-0933\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;D:/workspace/eclipse//plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.5.v20221102-0933/jre/bin/server;D:/workspace/eclipse//plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.5.v20221102-0933/jre/bin;C:\Program Files\Zulu\zulu-17\bin\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\130\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Microsoft SQL Server\130\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\150\DTS\Binn\;C:\Program Files\Azure Data Studio\bin;C:\Program Files\Git\cmd;C:\Program Files\apache-maven-3.8.7;C:\Program Files\apache-maven-3.8.7\bin;C:\Users\isrivastava\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Azure Data Studio\bin;C:\Program Files\apache-maven-3.8.7;C:\Program Files\apache-maven-3.8.7\bin;C:\Program Files\Zulu;C:\Program Files\Zulu\zulu-17;;D:\workspace\eclipse;;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Eclipse Adoptium"/>
+    <property name="java.vm.version" value="17.0.5+8"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="61.0"/>
+  </properties>
+  <testcase name="Featured_categories" classname="testmethod.Pharmeasy_footer1" time="0.112">
+    <system-out><![CDATA[The heading is diplayed =true
+]]></system-out>
+    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+Starting ChromeDriver 113.0.5672.63 (0e1a4471d5ae5bf128b1bd8f4d627c8cbd55f70c-refs/branch-heads/5672@{#912}) on port 32320
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+May 25, 2023 5:34:34 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 113, so returning the closest version found: 111
+]]></system-err>
+  </testcase>
+  <testcase name="Topproducts" classname="testmethod.Pharmeasy_footer1" time="3.138"/>
+  <testcase name="Homet" classname="testmethod.Pharmeasy_footer1" time="2.347"/>
+  <testcase name="Megasale" classname="testmethod.Pharmeasy_footer1" time="4.036"/>
+  <testcase name="Healthfood" classname="testmethod.Pharmeasy_footer1" time="5.975"/>
+  <testcase name="Homecare" classname="testmethod.Pharmeasy_footer1" time="6.806"/>
+  <testcase name="Mothercare" classname="testmethod.Pharmeasy_footer1" time="6.336"/>
+  <testcase name="Diabeticcare" classname="testmethod.Pharmeasy_footer1" time="4.657"/>
+  <testcase name="Accessories" classname="testmethod.Pharmeasy_footer1" time="4.98"/>
+  <testcase name="Ayurvediccare" classname="testmethod.Pharmeasy_footer1" time="10.337"/>
+  <testcase name="Elderlycare" classname="testmethod.Pharmeasy_footer1" time="8.637"/>
+  <testcase name="Need_help" classname="testmethod.Pharmeasy_footer1" time="0.065">
+    <system-out><![CDATA[The text Need help is diaplyed= true
+]]></system-out>
+  </testcase>
+  <testcase name="Browseall_medicine" classname="testmethod.Pharmeasy_footer1" time="2.335"/>
+  <testcase name="Browseall_medicineB" classname="testmethod.Pharmeasy_footer1" time="2.14">
+    <system-out><![CDATA[The data will be= B 29 Strip Of 10 Tablets
+B ACTIVE STRIP OF 15 TABLETS
+B Fit Cd Strip Of 10 Tablets
+Baclof 10mg Tablet
+Baclof Od 20mg Strip Of 10 Tablets
+BANATAN TUBE OF 50GM CREAM
+BASAGLAR 100IU CARTRIDGE OF 3ML SOLUTION FOR INJECTION
+BASALOG 100IU INJECTION 3ML
+Basalog Refil Injection 3ml
+Basalog 100iu Inj 5ml
+Basalog One Injection Pen
+Becadexamin Cap 30'S
+BECOSULES PERFORMANCE STRIP OF 15 CAPSULES
+Becosules Plus Cap
+BECOSULES WOMEN STRIP OF 15 CAPSULES
+Becosules Z Strip Of 20 Capsules
+BECOZINC STRIP OF 20 CAPSULES
+Benadryl Cough Formula 150ml
+Benfomet Plus Strip Of 10 Tablets
+BENFOMET FORTE STRIP OF 10 TABLETS
+BENFOLYST D STRIP OF 10 CAPSULES
+BENITOWA 4MG STRIP OF 10 TABLETS
+BENITOWA 8MG STRIP OF 10 TABLETS
+Betacap Tr 40mg Cap
+Betadine 2% Gargle Big Mint 100ml
+Betafree Eye Drops 5ml
+Betaloc 50mg Strip Of 30 Tablets
+Betaloc 25mg Strip Of 30 Tablets
+Betheran 25mg Tablet
+Betonin Ast Sugar Free Bottle Of 400ml Syrup
+Bevon Cap
+Bevon Syp 200ml
+BHARGLOB 16.5% VIAL OF 2ML INJECTION
+BI FOLATE STRIP OF 10 TABLETS
+Bilefix 300mg Strip Of 14 Tablets
+Bilovas 40mg Strip Of 10 Tablets
+Bio D3 Plus Strip Of 15 Capsules
+BIO D3 MAX STRIP OF 10 CAPSULES
+Bio D3 0.25mcg Capsule
+BIO D3 FEM STRIP OF 10 CAPSULES
+BIO D3 MAX STRIP OF 15 CAPSULES
+BIO D3 FEM STRIP OF 15 CAPSULES
+BIOSIL STRIP OF 10 CAPSULES
+Bizfer Xt Strip Of 10 Tablets
+Bladmir 50mg Strip Of 10 Tablets
+BLISTO 2MF 1000MG STRIP OF 10 TABLETS
+BLISTO 4MF STRIP OF 10 TABLETS
+Bon K2 Strip Of 10 Tablets
+Bon K2 Hd Tablet
+BONISTA 750MCG CARTRIDGE OF 3ML INJECTION
+Bosentas 62.5mg Tablet
+Bosentas 125mg Tablet
+BRAIN UP SMOOTHIE MANGO FLAVOUR BOTTLE OF 150ML SUSPENSION
+Brainmax Liquid 150ml
+BREVOXYL 4% CREAMY FACE WASH 50GM
+Brilinta 90mg Strip Of 14 Tablets
+BRILINTA 60MG TAB 14'S
+Brimocom Eye Drops 5ml
+BRIMOLOL BOTTLE OF 5ML EYE DROPS
+BRINTOP F 5% BOTTLE OF 100ML SOLUTION
+Brintop F 10% Soln 100ml
+Brinzox Eye Drops
+Brinzotim Eye Drops 5ml
+BRINZAGAN EYE DROP 5ML
+Bristaa Cream 20gm
+Brivex Eye Drops 5ml
+Briviact 50mg Tab 14'S
+Broclear Strip Of 10 Tablets
+Btn Forte 10mg Strip Of 10 Tablets
+Budamate 400mcg Transcaps
+Budamate Forte Transcaps
+Budamate 200mcg Transcaps 30'S
+BUDAMATE 400MCG PACKET OF 120MD TRANSHALER
+BUDAMATE NEB 0.5MG 2ML PACKET OF 7 RESPULES
+BUDAMATE NEB 1MG 2ML PACKET OF 7 RESPULES
+BUDECORT 0.5MG 2ML PACKET OF 5 RESPULES
+BUDECORT 1MG 2ML PACKET OF 5 RESPULES
+BUDECORT 200MCG BOX OF 200MD METERED DOSE INHALER
+BUDESAL 0.5MG 2ML PACKET OF 5 RESPULES
+BUDEZ CR 3MG STRIP OF 10 CAPSULES
+]]></system-out>
+  </testcase>
+  <testcase name="Browseall_medicineC" classname="testmethod.Pharmeasy_footer1" time="2.117">
+    <system-out><![CDATA[The data will be= Calcirol 60000 Iu Sachet 1gm
+CALCIMAX K2 STRIP OF 15 TABLETS
+Caldikind Plus Strip Of 10 Capsules
+Calutide 50mg Tablet
+Canditral 100 Strip Of 10 Capsules
+CANDIFORCE 200MG CAPSULES 7'S
+CARDACE METO 2.5MG STRIP OF 10 TABLETS
+CARDACE METO 5MG STRIP OF 10 TABLETS
+CARDACE H 5MG STRIP OF 10 TABLETS
+Cardace 2.5mg Strip Of 15 Tablets
+Cardace 5mg Tab 15'S
+Cardace 10mg Tab 15'S
+Cardivas 12.5mg Strip Of 10 Tablets
+Cardivas 3.125mg Strip Of 10 Tablets
+Cardivas 6.25mg Strip Of 10 Tablets
+Carnisure 500mg Tablet
+Cartigen Duo Tablet
+Cartigen 1500 Strip Of 15 Tablets
+Cartilox Sachet 10.45gm
+CARVIDON MR 35MG STRIP OF 10 TABLETS
+Ccm Bottle Of 30 Tablets
+Ccm Tablet 40'S
+Ceftum 500mg Tablet
+Cellcept 250mg Strip Of 10 Capsules
+Cellcept 500mg Strip Of 10 Tablets
+Cetanil 10mg Tab 15'S
+CETAPIN XR 500MG 15'S TAB
+CETAPIN XR 1GM STRIP OF 15 TABLETS
+Cidmus 50 Strip Of 14 Tablets
+Cidmus 100 Strip Of 14 Tablets
+Cidmus 200mg Strip Of 7 Tablets
+CILACAR 10MG STRIP OF 10 TABLETS
+Cilacar 5mg Strip Of 10 Tablets
+Cilacar 20mg Strip Of 10 Tablets
+CILACAR M 10/50MG STRIP OF 10 TABLETS
+Cilamin 250mg Strip Of 10 Capsules
+CINOD 10MG STRIP OF 15 TABLETS
+Cintodac Caps
+Cipcal 500mg Strip Of 15 Tablets
+CIRROSAM 400MG STRIP OF 10 TABLETS
+Clavix 75mg Strip Of 15 Tablets
+CLEXANE 60MG PRE FILLED SYRINGE OF 0.6ML SOLUTION FOR INJECTION
+Clopivas Ap 75mg Strip Of 15 Tablets
+CLOPILET A 75MG STRIP OF 10 CAPSULES
+Clopilet 75mg Strip Of 15 Tablets
+Clopitorva 20mg Capsule
+CLOPITORVA 10MG CAPSULE
+Clopitab 75mg Strip Of 15 Tablets
+Clopitab A 150mg Strip Of 15 Capsules
+Clopitab A 75mg Strip Of 15 Capsules
+Clopivas 75mg Strip Of 15 Tablets
+CLOPITAB CV 10MG STRIP OF 15 CAPSULES
+COBADEX CZS STRIP OF 15 TABLETS
+COGNICARE DELIC BUBBLEGUM FLAVOUR SYRUP 200ML
+COLLASHOT C2 STRIP OF 10 CAPSULES
+COLOSPA RETARD 200MG STRIP OF 15 CAPSULES
+Combigan Eye Drops
+Concor Am 5mg Strip Of 10 Tablets
+Concor Cor 2.5mg Strip Of 10 Tablets
+Concor 5mg Strip Of 10 Tablets
+CONTRACTUBEX TUBE OF 20GM GEL
+Coralan 5mg Tablet
+Coralium D3 Strip Of 10 Tablets
+CORCIUM D3 STRIP OF 15 TABLETS
+CORDARONE 100MG STRIP OF 10 TABLETS
+CORDARONE X 200MG STRIP OF 10 TABLETS
+COVERSYL AM 4/5MG STRIP OF 10 TABLETS
+Coversyl 4mg Strip Of 10 Tablets
+COVERSYL PLUS STRIP OF 10 TABLETS
+Cranpac D Strip Of 10 Tablets
+CREMALAX 10MG STRIP OF 15 TABLETS
+Creon 25000 Strip Of 10 Capsules
+Creon 40000 Capsule
+CREON 10000 STRIP OF 15 CAPSULES
+CRESP 40MCG PRE FILLED SYRINGE OF 0.4ML INJECTION
+Crestor 20mg Strip Of 10 Tablets
+Crestor 10mg Strip Of 30 Tablets
+CREVAST 10MG STRIP OF 10 TABLETS
+CRINONE 8% TUBE OF 1.125GM VAGINAL GEL
+Ctd 12.5mg Strip Of 15 Tablets
+Ctd 6.25mg 15'S Tab
+Ctd T 6.25/40mg 15'S Tab
+Cyblex Mv 80.3mg Tablet 15'S
+Cyra D Capsule
+CYTOGARD OD 60MG STRIP OF 15 CAPSULES
+]]></system-out>
+  </testcase>
+  <testcase name="Browseall_medicineK" classname="testmethod.Pharmeasy_footer1" time="2.125">
+    <system-out><![CDATA[The data will be= K Bind Powder 15gm
+K GLIM M 2MG STRIP OF 15 TABLETS
+KANZOMIN SACHET OF 10GM GRANULES
+Kanzomin New Strawberry Flavour Sachet Of 10gm Granules
+KARVOL PLUS STRIP OF 10 CAPSULES
+KCOR 10MG BOTTLE OF 20 TABLETS
+KCOR 5MG BOTTLE OF 20 TABLETS
+KENACORT 0.1% TUBE OF 5GM MOUTH PASTE
+KENZ SAL BOTTLE OF 60ML LOTION
+KENZ SOAP 75GM
+Keppra 250mg Tablet
+Keppra 500mg Tablet
+Keppra 1gm Tablet
+KEPPRA BOTTLE OF 100ML ORAL SOLUTION
+Keppra 750mg Tablet
+KERA FM 5% BOTTLE OF 60ML SOLUTION
+Kera Xl M Solution 60ml
+KERABOOST STRIP OF 10 TABLETS
+KERABLAK TABLET
+KERACNYL TUBE OF 100ML FOAMING GEL
+KERAGLO EVA STRIP OF 10 TABLETS
+Keraglo Men Strip Of 10 Tablets
+Keraglo Eva Tablet 30'S
+KERAGLO AD LOTION 50ML
+Keratoderm Tablet 30'S
+KESAA PLUS STRIP OF 10 TABLETS
+Ket Aminos Strip Of 10 Tablets
+Ketasma 1mg Tablet
+KETO SOAP 100GM
+Keto Az Hair Wash Lotion 75ml
+KETO GOLD PREMIUM SOAP 100GM
+Keto Sz Shampoo 120ml
+Ketoalfa Strip Of 10 Tablets
+Ketoadd Strip Of 20 Tablets
+Ketoart Strip Of 10 Tablets
+KETOALFA SACHET OF 2.7GM ORAL POWDER
+KETOCHECK STRIP OF 10 TABLETS
+Ketodel Strip Of 10 Tablets
+Ketograce Sachet 5gm
+Ketograce Strip Of 10 Tablets
+KETOMAC (KETOCONAZOLE) 2% SHAMPOO 110ML
+KETONEPH STRIP OF 10 TABLETS
+Ketorol Dt 10mg Strip Of 15 Tablets
+Ketorite Strip Of 10 Tablets
+KETOSTAR SOAP 50GM
+Ketosteril Tablet 100'S
+KEVON STAY ON TUBE OF 75ML LOTION
+KIDRICH D3 800IU 15ML ORAL DROPS
+Kilfat 60mg Strip Of 10 Tablets
+KIMET XL 25MG STRIP OF 10 TABLETS
+Kinpride 1mg Tablet
+KION 10MG STRIP OF 10 TABLETS
+KLIN WALK STRIP OF 10 TABLETS
+Klm Klin Face Wash 100ml
+Klmc 1000mg Bottle Of 20 Effervescent Tablets
+KLOSH F STRIP OF 15 TABLETS
+KOBACAR STRIP OF 10 TABLETS
+Kojic Cream 25gm
+Kojiglo Forte Cream 20gm
+Kojiglo Gel 20gm
+Kojivit Gel 15gm
+Kojivit Plus Gel 15gm
+Kojivit Ultra Gel
+KOLABOS XT STRIP OF 10 TABLETS
+Kombiglyze Xr 5/1000mg Strip Of 7 Tablets
+Kombiglyze Xr 5/500mg Tablet
+Kondro Acute Tablet
+Kondro Od Strip Of 10 Tablets
+KORANDIL 10MG STRIP OF 10 TABLETS
+Korandil 5mg Strip Of 10 Tablets
+KQ 100MG STRIP OF 10 CAPSULES
+KRIMSON 35MG STRIP OF 21 TABLETS
+Kryxana 200mg Tablet 21'S
+Kz 2% Cream 30gm
+KZ LOTION 50ML
+Kz Plus Bottle Of 75ml Lotion
+]]></system-out>
+  </testcase>
+  <testcase name="Browseall_medicineR" classname="testmethod.Pharmeasy_footer1" time="2.112">
+    <system-out><![CDATA[The data will be= RABEMAC DSR STRIP OF 10 CAPSULES
+Rabium Dsr Strip Of 15 Capsules
+RABLET D CAPSULE
+Rablet 20mg Strip Of 15 Tablets
+Ramistar 5mg Strip Of 15 Tablets
+RANOLAZ 500MG STRIP OF 10 TABLETS
+Ranozex 500mg Strip Of 10 Tablets
+Rantac 150mg Strip Of 30 Tablets
+Ranx 500mg Strip Of 15 Tablets
+RAPILIF D 8/0.5MG NEW STRIP OF 10 CAPSULES
+Rasalect 1mg Tablet
+RAZEL GOLD 20/75/75MG STRIP OF 15 CAPSULES
+Razel F 10 Tab 15'S
+Razel 5mg Tab 15'S
+Razel 20mg Tab 15'S
+Razel 10mg Tab 15'S
+Razo 20mg Strip Of 15 Tablets
+Razo D Strip Of 15 Capsules
+Reclide 80mg Tablet
+Reclimet Xr Tablet
+RECLIMET STRIP OF 14 TABLETS
+RECLIDE XR 60MG STRIP OF 14 TABLETS
+REESHAPE 120MG STRIP OF 15 CAPSULES
+Rejoint Uc Strip Of 10 Capsules
+REMO 100MG STRIP OF 10 TABLETS
+REMO ZEN 100MG STRIP OF 10 TABLETS
+REMO M 500MG STRIP OF 10 TABLETS
+RENERVE PLUS STRIP OF 15 SOFTGEL CAPSULES
+Renolog Strip Of 10 Tablets
+RENOLIFE STRIP OF 10 TABLETS
+Renoque Strip Of 10 Capsules
+Renvela 800mg Tablet
+Repace 50mg Strip Of 10 Tablets
+Repace H 50mg Strip Of 10 Tablets
+REVELOL XL 50MG STRIP OF 10 TABLETS
+REVELOL AM 50/5MG STRIP OF 10 TABLETS
+Revlamer 400mg Tablet
+Revlamer 800mg Tablet
+Rifagut 400mg Tablet
+Rifagut 550mg Tablet
+Rocaltrol 0.25mcg Strip Of 10 Capsules
+Rosave 10mg Tab 15'S
+ROSEDAY 10MG STRIP OF 10 TABLETS
+ROSEDAY 5MG STRIP OF 10 TABLETS
+ROSEDAY 20MG STRIP OF 10 TABLETS
+Roseday F 10mg Tablet
+Roseday 40mg Tablet
+Roseday F 20mg Tablet
+Roseday A 10mg Capsule
+ROSEDAY GOLD 20MG STRIP OF 10 CAPSULES
+ROSEUP HD STRIP OF 14 CAPSULES
+Rosiflex C Bottle Of 20 Capsules
+ROSIFLEX TRIO BOTTLE OF 14 CAPSULES
+Rosufit Cv 10mg Capsule
+Rosulip 10mg Strip Of 15 Tablets
+Rosumac Gold 10mg Capsule
+ROSUMAC 10MG TABLET
+Rosumac Gold 20mg Capsule
+ROSUTOR GOLD 20/75MG STRIP OF 15 CAPSULES
+Rosuva Gold 10mg Strip Of 10 Capsules
+Rosuva Gold 20mg Strip Of 10 Capsules
+Rosuvas 20mg Strip Of 10 Tablets
+Rosuvas 40mg Tablet
+Rosuvas F 20mg Tablet
+Rosuvas 10mg Strip Of 15 Tablets
+Rosuvas 5mg Strip Of 15 Tablets
+Rosuvas F 10mg Strip Of 15 Tablets
+ROWASA 1GM SACH
+Rozagold 10mg Capsule
+Rozagold 20mg Capsule
+ROZAT 10MG STRIP OF 14 TABLETS
+ROZAT 20MG 14'S
+Rozavel 10mg Strip Of 10 Tablets
+Rozavel F 10mg Strip Of 10 Tablets
+Rozavel 40mg Tablet
+Rozavel 20mg Strip Of 10 Tablets
+Rozavel 5mg Strip Of 10 Tablets
+Rozavel A 75mg Strip Of 10 Capsules
+Rozavel F 20mg Tablet
+Rozucor F 10mg Tablet
+Rozucor 20mg Tablet
+Rozucor Asp 10mg Strip Of 10 Capsules
+Rozucor 10mg Strip Of 15 Tablets
+Rozucor 5mg Strip Of 15 Tablets
+Rozucor Gold 20mg Strip Of 10 Capsules
+ROZUSTAT 10MG TABLET
+Ryzodeg Flextouch Prefilled Pen Of 3ml Solution For Injection
+Ryzodeg Penfill 100iu Injection 3ml
+]]></system-out>
+  </testcase>
+  <testcase name="Browseall_medicineX" classname="testmethod.Pharmeasy_footer1" time="2.127">
+    <system-out><![CDATA[The data will be= X PECIA 1MG STRIP OF 10 TABLETS
+X Pecia 10% Gel 60gm
+X PECIA PRO 5% BOTTLE OF 60ML GEL
+X Scar Gel 15gm
+X Vir 0.5mg Tablet
+XAFINACT 50MG STRIP OF 10 TABLETS
+XAFINACT 100MG STRIP OF 10 TABLETS
+XALACOM EYE DROPS 2.5ML
+XALATAN 0.005% BOTTLE OF 2.5ML EYE DROPS
+Xanilax Sr 200mg Strip Of 10 Tablets
+XANTOX 4MG STRIP OF 10 CAPSULES
+Xantox 4 Mg Capsule 30
+XANTOX GLO STRIP OF 10 TABLETS
+Xarelto 10mg Strip Of 7 Tablets
+Xarelto 15mg Strip Of 28 Tablets
+XARELTO 20MG STRIP OF 28 TABLETS
+Xarelto 15mg 14'S Tab
+XARELTO 20MG STRIP OF 14 TABLETS
+Xarelto 2.5mg Tab 14'S
+XARELTO 20MG BOX OF 98 TABLETS
+XARELTO 15MG BOX OF 98 TABLETS
+Xaria Plus Tablet
+XBAREN 300MG STRIP OF 10 TABLETS
+XBAREN 450MG STRIP OF 10 TABLETS
+XBAREN 600MG STRIP OF 10 TABLETS
+XBIRA 250MG BOTTLE OF 120 TABLETS
+XEDGE STRIP OF 10 CAPSULES
+XELODA 500MG STRIP OF 10 TABLETS
+Xerina Soft Cream 50gm
+XETOX 500MG STRIP OF 10 TABLETS
+XEVOR 5MG STRIP OF 10 TABLETS
+XFERT F STRIP OF 10 TABLETS
+XGEVA 120MGVIAL OF 1.7ML SOLUTION FOR INJECTION
+Xigduo Xr 10mg/500mg Strip Of 7 Tablets
+Xigduo Xr 10mg/1000mg Tab 7'S
+Xigduo 5/1000 Mg Tab 14'S
+Xilia M1 Tab
+Xilia M2 Tab
+Xilia Trio 1mg Tablet
+Xilia Trio 2mg Tablet
+Xinbest Cream
+XIRTAM 20MG TABLET
+Xirtam 40mg Tablet
+Xirtam H Tablet
+Xirtam Am Strip Of 10 Tablets
+Xlha Eye Drops 10ml
+Xmet 500mg Strip Of 15 Tablets
+Xmet Sr 1gm Strip Of 15 Tablets
+Xmet Sr 500mg Strip Of 15 Tablets
+XMET TRIO 500/0.2/1 STRIP OF 10 TABLETS
+XMET TRIO 500MG/0.2MG/2MG STRIP OF 10 TABLETS
+XMET TRIO 500/0.3/2 MG STRIP OF 10 TABLETS
+Xovoltib 40mg Strip Of 7 Tablets
+Xovoltib 30mg Strip Of 7 Tablets
+XPECT B MIXED FRUIT FLAVOUR SUGAR FREE BOTTLE OF 100ML SYRUP
+XPLODE STRIP OF 10 TABLETS
+XPLODE TIN OF 200GM POWDER
+XPLODE CHOCOLATE FLAVOUR TIN OF 200GM POWDER
+Xstan Am Strip Of 15 Tablets
+Xstan H Strip Of 15 Tablets
+Xt Para 1000mg Tab 12'S
+XTANE 25MG BOTTLE OF 30 TABLETS
+Xtor 10mg Strip Of 10 Tablets
+Xtor 80mg Tablet
+Xtor 20mg Tablet
+Xtor 5mg Tablet
+Xtor Ez 10mg Tablet
+Xtor F Tablet
+Xtor 40mg Tablet
+Xtracal Tablet
+Xtracal Pm Tablet
+Xtracal K2 Tablet
+Xtracal Hd Tab 15'S
+Xtracal Ct Strip Of 15 Tablets
+XTRADAY STRIP OF 10 CAPSULES
+Xtraglo Strip Of 10 Tablets
+Xtralite Cream 15gm
+Xultophy 100/3.6 Inj Pen 3ml
+XYGREL 90MG STRIP OF 10 TABLETS
+Xykaa Mr 500mg/4mg Strip Of 10 Tablets
+Xykaa Mr 8mg Tablet
+Xykaa Bd 1000mg Strip Of 10 Tablets
+Xylocaine 2% Jelly 50gm
+XYLOMIST 0.1% NASAL DROPS 10ML
+XYMEX ORANGE FLAVOUR SYRUP 200ML
+Xymoheal D Tablet
+Xymoheal Spray
+Xyzal 5mg Strip Of 15 Tablets
+XYZAL 2.5MG BOTTLE OF 60ML SYRUP
+Xyzal 10mg Tablet
+Xyzal M Tablet 15'S
+]]></system-out>
+  </testcase>
+  <testcase name="Browseall_medicineLast" classname="testmethod.Pharmeasy_footer1" time="2.121">
+    <system-out><![CDATA[The data will be= 3 D Plus Skin Cream
+5 Mono Sr 30mg Tablet
+9 M FOL STRIP OF 10 CAPSULES
+3 D Tube Of 10gm Cream
+4U Q10 STRIP OF 10 SOFTGEL CAPSULES
+4U Q10 PLUS STRIP OF 10 SOFTGEL CAPSULES
+4u Q10 Forte Bottle Of 30 Capsules
+4QUIN EYE DROPS
+4quin 0.5% Eye Oint
+4 QUIN KT BOTTLE OF 5ML EYE DROPS
+4 QUIN LOT BOTTLE OF 5ML EYE DROPS
+3VC VAG BOX OF 3 VAGINAL SUPPOSITORIES
+1 Al M Tablet
+3 Nite Suppositories
+2B 12 STRIP OF 15 CAPSULES
+3d 60k Cap 4'S
+4 G WELL STRIP OF 10 TABLETS
+9 M Fol D Cap
+1 AL TOTAL SUSPENSION 60ML
+1 AL SYRUP 30ML
+1 Al 5mg Tablet
+2B 12 STRIP OF 10 CAPSULES
+6 Mp 50mg Tablet
+9 PM BOTTLE OF 2.5ML EYE DROPS
+3 Kat 60mg Tablet
+3 TONE TC SYRUP 200ML
+2 ACT 4MG STRIP OF 10 TABLETS
+1 AL M SYRUP 60ML
+3 METIC STRIP OF 10 TABLETS
+4 Lub Eye Drops 10ml
+4 Lub Ultra Eye Drops 10ml
+9 FB SR 200MG STRIP OF 10 TABLETS
+25 Oxy Oral Spray 30 Doses 6ml
+1 Vita Gold Strip Of 10 Tablets
+9 Fb Sr 300mg Strip Of 10 Tablets
+36 D 60k Strip Of 4 Capsules
+1DERFUL BOTTLE OF 200ML SYRUP
+3 EFA STRIP OF 10 CAPSULES
+3d Forte Drops 15ml
+3D FORTE BOTTLE OF 100ML SYRUP
+4 QUIN BROM BOTTLE OF 5ML EYE DROPS
+4 Quin D Eye Drops 5ml
+4 QUIN D EYE DROPS 10ML
+3D FORTE 60K STRIP OF 4 TABLET
+1 Al 10mg Strip Of 15 Tablets
+4K PEG LEMON MINT FLAVOUR JAR OF 105GM GRANULES
+4ph 40 Mg Tablet 15
+4U Q10 FORTE STRIP OF 10 CAPSULES
+4U Q10 GOLD 100MG STRIP OF 10 CAPSULES
+6 ART STRIP OF 10 TABLETS
+2SITOL STRIP OF 10 TABLETS
+2 Azole Cream 20gm
+7 LA SUGAR FREE BOTTLE OF 200ML SUSPENSION
+1 AL TOTAL NEO STRIP OF 10 TABLETS
+5d Cream 15gm
+4 ALL STRIP OF 10 CAPSULES
+3C PLUS STRIP OF 10 TABLETS
+4PH STRIP OF 10 TABLETS
+3D FORTE CM STRIP OF 10 TABLETS
+3d Forte Syrup 150ml
+5 ALPHA R D STRIP OF 10 CAPSULES
+4K PEG PLUS JAR OF 138.15GM GRANULES
+4g Pine Strip 10 Veg Capsules
+]]></system-out>
+  </testcase>
+  <testcase name="Browseall_molecules" classname="testmethod.Pharmeasy_footer1" time="1.961">
+    <system-out><![CDATA[hghj=Molecules starting with a | PharmEasy
+]]></system-out>
+  </testcase>
+  <testcase name="Browseall_moleculesE" classname="testmethod.Pharmeasy_footer1" time="2.119">
+    <system-out><![CDATA[The data will be= Ebastine
+Ebastine+Montelukast
+Ebastine+Phenylephrine
+Eberconazole
+Eberconazole+Mometasone
+Eberconazole+Methyl Paraben+Propyl Paraben
+Eberconazole+Mometasone Furoate
+Eclipta Prostrata
+Eclipta Prostrata+Pterocarpus Santalinus
+Eclipta Prostrata+Paraffin Oil
+Ecliptaalba+Cichorium Intybus+Cassia Occidentalis+Solanum Nigrum+Boerhaavia Diffusa+Phyllanthus Niruri+Guduchi [Tinospora Cordifolia]+Achillea Millefolium+Capparis Spinosa+Tamarix Gallica+Daruharidra+Terminalia Arjuna+Amalaki Fruit+Chitrak+Vidanga
+Econazole
+Econazole+Beclometasone+Gentamicin
+Econazole+Triamcinolone Acetonide
+Econazole+Neomycin
+Edaravone
+Edetic Acid Disodium+Etidronic Acid Disodium+Palmitic Acid Sodium Salt+Titanium Dioxide+Triclosan
+Edta+Sodium Carbonate+Sodium Lauryl Sulphate
+Efavirenz
+Efavirenz+Emtricitabine+Tenofovir
+Efavirenz+Didanosine+Lamivudine
+Efavirenz+Lamivudine+Tenofovir
+Efavirenz+Lamivudine+Tenofovir Disoproxil
+Efavirenz+Emtricitabine+Tenofovir
+Eflornithin
+Efonidipine
+Eicosapentanoic Acid+Docosahexanoic Acid
+Eicosapenaenoic Acid+Docosahexanoic Acid
+Eicosapenaenoic Acid+Docosahexaenoic Acid
+Eicosapentaenoic Acid+Docosahexaenoic Acid
+Eicosapentaenoic Acid+Docosahexanoic Acid+Phytosterols
+Eicosapentaenoic Acid+Docosahexaenoic Acid+Salmon Oil
+Eicosapentaenoic Acid+L-Selenium+Beta Carotene+Lycopene+Calcium Ascorbate+Zinc+Wheat Germ Oil+Green Tea+Coenzyme Q10 / Ubidecarenone
+Eicosapentaenoic Acid+Docosahexaenoic Acid+Coenzyme Q 10+Selenium Dioxide+L-Arginine / Arginine
+Eicosapentaenoic Acid+L-Arginine / Arginine+Lycopene+Docosahexaenoic Acid+Methionine+Zinc Oxide+Coenzyme Q10 / Ubidecarenone+L-Carnitine / Levocarnitine / Carnitine
+Electrolytes
+Electrolytes+Glucose
+Electrolytes
+Elemental Zinc+Folic Acid+Iron
+Elemental Selenium+L-Arginine+Tocopherol [Vit E]+Ubidecarenone
+Elemental Iron
+Elemental Chromium+Elemental Copper+Elemental Manganese+Selenium+Zinc E
+Elemental Selenium+Levocarnitine+Ubidecarenone+Zinc Sulfate
+Elemental Selenium+L-Lysine+Molybdenum+Multiminerals+Multivitamin
+Elemental Selenium+L-Arginine+Omega 3 Fatty Acid+Ubidecarenone
+Elemental Calcium+Red Clover Isoflavones+Vitamin D3+Vitamin K2-7
+Elemental Calcium+Ibandronic Acid+Vitamin D3
+Elemental Calcium
+Elemental Selenium+Vitamin A+Vitamin C+Vitamin E
+Elemental Zinc+Green Tea Powder+Lycopene+Pygeumafricanumextract+Saw Palmetto
+Elemental Zinc+Gingko Biloba+L-Arginine+Mucunapruriens Extract+Pine Bark Extract+Tribulus Terrestris Extract+Withania Somnifera Extract
+Elementecal K2
+Elemental Calcium+Calcium Gluconate
+Elemental Selenium+Folic Acid+Levocarnitine+Lycopene+Ubidecarenone+Zinc Sulfate
+Elemental Calcium+Elemental Iron+Vitamin C+Vitamin E
+Elemental Zinc+Ferrous Ascorbate
+Elemental Magnesium+L-Arginine+Vitamin B6+Zinc Sulfate
+Elemental Selenium+Folic Acid+Glutathione+Levocarnitine+Lycopene+Ubidecarenone+Zinc Sulfate
+Elemental Selenium+Eicosapentaenoic Acid+Co-Enzyme Q-10+Lycopene+Docosahexanoic Acid
+Elemental Magnesium+Potassium
+Elemental Magnesium+Aluminium
+Elemental Magnesium+Vitamin D+Elemental Zinc+Calcium Citrate Maleate
+Elemental Zinc+Ferrous Ascorbate+Folic Acid
+Elemental Magnesium+Zinc+Calcium Citrate Maleate+Colecalciferol [Vit D3]
+Elemental Calcium+Zinc Sulfate Monohydrate+Vitamin D+Calcium Carbonate
+Elemental Magnesium+Calcium Aspartate
+Elemental Iron
+Elemental Magnesium
+Elemental Magnesium+Vitamin D+Zinc Sulfate+Calcium Carbonate
+Elemental Calcium+Elemental Boron+Vitamin K2-7+Zinc Sulphate
+Elemental Magnesium+D Panthenol+Elemental Iron+Nicotinic Acid [Vit B3]+Cholime Bitartrate+Pyridoxine [Vit B6]+Elemental Zinc+L Carnitine Tartrate+Thiamine [Vit B1]
+Elemental Magnesium+Calcium+Colecalciferol [Vit D3]+Elemental Zinc
+Elemental Selenium+Elemental Zinc+L-Glutamic Acid
+Elemental Magnesium+Phosphorus+Zinc+Iron+Calcium
+Elemental Magnesium+Sodium+Calcium+Potassium+Zinc
+Elemental Iron+Lactoferrin
+Elemental Zinc+Lactobacillus+Saccharomyces Boulardii
+Elemental Magnesium+Aluminium Hydroxide+Sodium Bicarbonate+Alginic Acid
+Elemental Zinc
+Elemental Zinc+L Carnitine L Tartrate+Elemental Selenium+Co Enzyme Q 10
+e=Molecules starting with e | PharmEasy
+]]></system-out>
+  </testcase>
+  <testcase name="Browseall_moleculesH" classname="testmethod.Pharmeasy_footer1" time="2.132">
+    <system-out><![CDATA[The data will be= Haematinics+Multivitamins
+Haematinics
+Haemocoagulase
+Haemoglobin+Sorbitol+Vitamin B12
+Haemocoagulase
+Haemophilus Influenzae Type 2 B Oligosaccharide
+Haemophilus B Conjugate Vaccine+Sucrose+Tetanus Toxoid+Thiomersal
+Haemoglobin+Copper Sulfate+Manganese Sulfate+Zinc Sulfate+Ferrous Ammonium Citrate
+Haemophilus Influenzae Type B Polysaccharide
+Haemophilus Influenzae Type B Oligosaccharide
+Haemophilus Influenzae Type B Oligosaccharide+Hepatitis B Vaccine
+Hair Restorers
+Hair Restorer
+Hair Preparation
+Hair Care Products
+Hair Preparation
+Halazone
+Halcinonide
+Halcinonide+Neomycin
+HALOBETASOL
+Halometasone
+Haloperidol+Trihexyphenidyl
+Haloperidol+Propantheline
+Haloperidol
+Haloperidol+Trihexyphenidyl / Benzhexol Hydrochloride
+Haloquinol
+Halothane
+Haridra
+Haridra Curcuma Longa+Jeeventhi Holestemma Adakodein+Kera Taila Cocos Nusifera+Manjistarubiacordifolia+Stree Kutajawrightia Tinctoria+Tuveraka Taila Hydnocarpus Wightiana
+Haridra+Nimba
+Haridra (Curcuma Longa)+Jeeventhi (Holestemma Adakodein)+Manjistarubiacordifolia)+Stree Kutajawrightia Tinctoria
+Haritaki+Hing+Jaiphal+Pimli+Pudina
+Haritaki Terminalia Chebula+Sariva+Vibhitaki+Chymotrypsin-Trypsin+Punarnava+Amalaki Fruit+Madhukaroot+Asokabark+Jyothishmathiseed+Cedrus Deodara
+Haritaki
+Haritaki Terminalia Chebula+Phyllanthus Emblica+Gingiber Officinale+Acorus Calamus
+Haritaki Terminalia Chebula
+Haritaki Terminalia Chebula+Terminalia Bellirica+Emblica Officinalis
+Haritaki Terminalia Chebula+Senna Glycosides+Olibanum Extract
+Haritaki Terminalia Chebula+Ferula Assa Foetida+Allium Sativum+Gingiber Officinale+Caesalpina Bonducelia
+Haritaki+Ativisha+Himaj+Amaltas+Amruta+Rasvanti+Neem+Shatapatri+Nagkeshar+Sonamukhi+Truti+Praval Pishti
+Harpagoside
+Harpagoside+Bromelain+Chymotrypsin-Trypsin+Rutoside
+Harsh Detergents
+Health Supplement
+Hedychium Spicatum+Magnesium Silicate+Myristica Fragans+Santalum Album+Saussurea Lappa+Symplocos Racemosa+Terminalia
+Helianthus Annuus Oil+Jojoba Oil+Olea Europea Oil+Prunus Amygdalus Oil+Sesamum Orientale Oil
+Helianthus Annuus Oil
+Helianthus Annuus+Linum Usitatissimum+Vitis Vinifera
+Helianthus Annuus
+Hematinic Products
+Heme Iron Polypeptide
+Heme Iron Polypeptide+L Methylfolate
+Hemoglobin Glutamer [Bovine]
+Heparin+Benzyl Nicotinate
+Heparin
+Heparin+Allantoin+Cepae Extract
+Hepatic Protectors Including Ayurvedic
+Hepatitis A+Hepatitis B
+Hepatitis A Immunoglobulin
+Hepatitis B Immunoglobulin
+Hepatitis Immunoglobulin
+Hepatitis B
+Hepatitis B, Purified Antigen
+Hepatitis B Surface Antigen
+Hepatitis A Vaccine Inactivated
+Hepatitis A Vaccine
+Hepatitis B Vaccine
+Hepatitis B Vaccine+Pertussis Vaccine+Immunoglobulin Anti-Clostridium Tetani Toxin+Haemophilus Influenzae Type B Capsular Polysaccharide+Diphtheria Immune Globulin
+Hepatitis B
+Heprin
+Herbal Preparations
+Herpes Zoster Vaccine
+Hexadecanol+Octadecanol
+Hexylresorcinol
+Hibiscus Abelmoschus+Inula Racemosa+Oryza Sativa Powder+Vetiveria Zizanioides
+Hibiscus Abelmoschus+Inula Racemosa+Vetiveria Zizanioides
+Himsra+Kasani+Kakamachi+Arjuna+Kasamarda+Biranjaspha+Jhavuka
+Himsra+Arjuna+Biranjasipha
+Hing+Tankarkhar+Kapaas Root+Hirakashish+Tambar+Hirabol+Jatamanshi+Gajar Beej+Jasad Bhasma+Sarpagandha+Satap+Chitrak
+Hingu+Mula Kshar+Navsar+Nimbukasat+Piperminta Sat+Sanchal+Sarjika Kshar+Tankankhar Shuddha+Yavakshar
+h=Molecules starting with h | PharmEasy
+]]></system-out>
+  </testcase>
+  <testcase name="Browseall_moleculesM" classname="testmethod.Pharmeasy_footer1" time="2.108">
+    <system-out><![CDATA[The data will be= Macitentan
+Macrogol+Potassium+Sodium Bicarbonate+Sodium
+Macrogol+Povidone-Iodine
+Macrogol And Combinations
+Macrogol+Polyvinyl Alcohol
+Macrogol
+Macrogol+Sodium Chloride+Sodium Bicarbonate+Potassium
+Maerua Arenaria+Curculigo Orchiodes+Mucuna Pruriens+Moringa+Cinnamomum Zeylanicum+Caryophyllus Arematicus+Saftron+Pooma Chandrodayam+Withanla Somnffere+Nutmeg+Anasyclus Pyrethrum+Sarpagandha
+Magaldrate+Polydimethyl Siloxane
+Magaldrate+Magnesium Aluminium Silicate Hydrate+Sodium Alginate
+Magaldrate+Methyl Siloxane+Oxethazine
+Magaldrate+Metoclopramide
+Magaldrate+Oxetacaine+Simetione
+Magaldrate+Activated Dimethicone
+Magaldrate+Sodium Alginate
+Magaldrate+Simethicone / Simeticone
+Magaldrate+Oxetacaine / Oxethazaince
+Magaldrate+Polydimethyl Siloxane+Oxetacaine / Oxethazaince
+Magaldrate+Simethicone / Simeticone
+Magaldrate+Domperidone+Simethicone / Simeticone
+Magaldrate+Oxetacaine / Oxethazaince+Dicycloverine / Dicyclomine+Simethicone / Simeticone
+Magaldrate+Alginic Acid+Simethicone / Simeticone
+Magaldrate+Sodium Alginate+Simethicone / Simeticone
+Magaldrate+Oxetacaine / Oxethazaince+Simethicone / Simeticone
+Magnesium+Pyridoxine [Vit B6]+Zinc
+Magnesium+Paraffin Oil
+Magnesium Valproate
+Magnetic Plasters
+Magnesium Orotate
+Magnesium Sulfate
+Magnesium Chloride+Potassium Chloride+Procaine+Sodium Metabisulfite
+Magnesium Supplements
+Magnesium Stearate+Microcrystalline Cellulose
+Magnesium Citrate+Potassium Citrate+Vitamin B6
+Magnesium+Pyridoxine Hydro+Trigonella Foenum-Graecum Extract+Zinc
+Magnesium Oxide
+Magnesium Hydroxide+Paraffin
+Magnesium Sulphate+Potassium+Sodium Chloride
+Magnesium+Potassium+Sodium
+Magnesium Chloride+Potassium Chloride+Procaine Hydrochloride
+Magnesium Bisglycinate
+Magnesiumchloride+Manganese+Mecobalamin+Nicotinamide+Peptone+Pyridoxine [Vit B6]+Sodiummetavanadate+Zinc Sulfate
+Magnesium+Potassium
+Magnesium Citrate
+Magnesium+Potassium+Pyridoxine [Vit B6]
+Magnesium Citrate+Potassium Citrate
+Magnesium
+Magnesium Citrate+Potassium Citrate+Pyridoxine [Vit B6]
+Magnesium Oxide+Zinc+Calcium Citrate Maleate+Calcitriol
+Magnesium Citrate+Potassium Citrate+Pyridoxine [Vit B6]
+Magnesium+Glucosamine+Boron+Methyl Sulfonylmethane+Zinc Sulfate+Selenium+Silicone+Copper
+Magnesium Aluminium Silicate+Magaldrate+Sodium Alginate
+Magnesium Sulfate+Phenol
+Magnesium Oxide+Calcium Citrate Maleate+Alfacalcidol+Isoflavones
+Magnesium+Pyridoxal-5-Phosphate+Potassium
+Magnesium Citrate+Lycopene+Calcium Citrate Maleate
+Magnesium Trisilicate+Dried Aluminium Hydroxide+Magnesium Hydroxide / Milk Of Magnesia+Simethicone / Simeticone
+Magnesium+Protein Hydrolysate+Carbohydrate+Iron Choline Citrate
+Magnesium Citrate+Potassium Nitrate
+Magnesium Glycine Complex(250.0 Mg)Vitamin D3
+Magnesium+Domperidone
+Magnesium Trisilicate+Dried Aluminium Hydroxide+Magnesium Hydroxide Milk Of Magnesia+Simethicone / Simeticone
+Magnesium Trisilicate+Dried Aluminium Hydroxide+Magnesium Hydroxide Milk Of Magnesia+Simethicone / Simeticone
+Magnesium Trisilicate+Dried Aluminium Hydroxide+Magnesium Hydroxide Milk Of Magnesia+Simethicone / Simeticone
+Magnesium Sulfate+Diosmin+Coenzyme Q10 / Ubidecarenone
+Magnesium Aluminium Silicate+Elemental Magnesium+Aluminium Hydroxide+Dimethicone / Polydimethylsiloxane
+Magnesium Bisglycinate+L-Carnitine / Levocarnitine / Carnitine
+Magnesium Aluminium Silicate+Aluminium Hydroxide+Dimethicone / Polydimethylsiloxane+Magnesium Hydroxide / Milk Of Magnesia
+Magnesium Hydroxide / Milk Of Magnesia
+Magnesium Hydroxide / Milk Of Magnesia+Activated Dimethicone+Dried Aluminium Hydroxide+Oxetacaine / Oxethazaince
+Magnesium Trisilicate+Chlorzoxazone+Diclofenac+Paracetamol / Acetaminophen
+Magnesium Hydroxide / Milk Of Magnesia+Aluminium Hydroxide+Simethicone / Simeticone
+Magnesium Hydroxide / Milk Of Magnesia+Aluminium Hydroxide+Magnesium Aluminium Silicate+Simethicone / Simeticone
+Magnesium Trisilicate+Dried Aluminium Hydroxide+Magnesium Hydroxide / Milk Of Magnesia+Simethicone / Simeticone
+Magnesium Hydroxide / Milk Of Magnesia+Dried Aluminium Hydroxide+Simethicone / Simeticone
+Magnesium Hydroxide / Milk Of Magnesia+Dicycloverine / Dicyclomine+Dried Aluminium Hydroxide+Simethicone / Simeticone
+Magnesium+Dried Aluminium Hydroxide+Cellulose+Simethicone / Simeticone
+Magnesium Hydroxide / Milk Of Magnesia+Dried Aluminium Hydroxide+Deglycyrrhized Liquorice+Simethicone / Simeticone
+Magnesium Hydroxide / Milk Of Magnesia+Magnesium Silicate+Aluminium Hydroxide+Simethicone / Simeticone
+Magnesium Hydroxide / Milk Of Magnesia+Aluminium Hydroxide+Dimethocaine+Simethicone / Simeticone
+m=Molecules starting with m | PharmEasy
+]]></system-out>
+  </testcase>
+  <testcase name="Browseall_moleculesS" classname="testmethod.Pharmeasy_footer1" time="2.129">
+    <system-out><![CDATA[The data will be= S Adenosyl L Methionine
+S Amlodipine+Atenolol
+S Amlodipine
+S Amlodipine+Nebivolol
+S Amlodipine+Telmisartan
+S Amlodipine+Atorvastatin
+S Amlodipine+S Metoprolol
+S Amlodipine+Clopidogrel
+S Atenolol+Hydrochlorothiazide
+S Atenolol
+S Atenolol+S Amlodipine
+S Metoprolol
+S Pantoprazole
+S+Etodolac
+S- Adenosyl-L-Methionine
+S-Adenosyl-L-Methionine
+S-Adenosyl Methionine
+S-Adenosyl Methionine(Ademetionine)
+S-Amlodipine
+S-Atenolol
+S-Atenolol
+S-Pantoprazole
+Saccharomyces Boulardi+Zinc Lactate+Lactobacillus Acidophilus
+Saccharomyces Boulardii
+Saccharomyces Boulardi+Bifidobacterium Bifidum+Bifidobacterium Longum+Lactobacillus Acidophilus+Streptococcus Thermophillus+Lactobacillus Rhamnosus
+Saccharomyces Boulardi
+Saccharomyces Boulardi+Doxycycline
+Saccharin
+Saccharomyces Boulardi+Lactic Acid
+Saccharomyces Boulardii+Azithromycin+Lactobacillus Sporogenes
+Saccharomyces Boulardii+Colostrum+Lactobacillus Sporogenes+Saccharomyces Cerevisiae+Tinocordin
+Saccharomyces Boulardii
+Saccharomyces Boulardi+Lactic Acid Bacillus+Racecadotril
+Saccharomyces Boulardi+Bacillus Clausii
+Saccharomyces Cerevisiae
+Saccharomyces Boulardi+Dicloxacillin+Amoxycillin / Amoxicillin
+Sacubitril+Valsartan
+Safflower Oil+D-Panthenol+Gamma Linolenic Acid
+Safinamide
+Sajka Kshar+Nimbu Satva+Isabgol Husk Powder
+SALBUTAMOL
+Salbutamol+Theophylline
+Salbutamol+Theofylline
+Salicylic Acid+Halcinonide
+Salicylic Acid Methyl Ester+Menthol+Ethanol+Rofecoxib
+Salicylic Acid+Sulfur
+Salicylic Acid+Hydrocortisone+Benzoic Acid
+Salicylic Acid+Sulphur+Zinc Oxide
+Salicylic Acid+Starch+Zinc
+Salicylic Acid+Urea
+Salicylic Acid+Dithranol+Hydrocortisone+Coal Tar
+Salicylic Acid+Crotamiton
+Salicylic Acid+Boric Acid+Camphor
+Salicylic Acid+Lactic Acid+Undecylenoyl Phenylalanine+Thymus Serpillum Extract
+Salicylic Acid+Terbinafine
+Salicylic Acid+Colophony
+Salicylic Acid
+Salicylic Acid Methyl Ester+Menthol+Diclofenac
+Salicylic Acid Methyl Ester+Methanol+Diclofenac
+Salicylic Acid+Triclosan
+Salicyclic Acid+Clobetasol
+Salicylic Acid+Sulfur+Coal Tar
+Salicyclic Acid+Betamethasone
+Salicyclic Acid+Urea
+Salicylic Acid Methyl Ester+Menthol+Capsaicin+Linum Usitatissimum+Diclofenac
+Salicylic Acid+Zinc Pyrithione+Chitosan
+Salicylic Acid+Copper+Benzoic Acid
+Salicylic Acid+Benzoin+Aloe Vera Extract+Podophyllum Resin
+Salicylic Acid+Tea Tree Oil+Aloe Vera Extract
+Salicylic Acid+Ichthyol+Micronized Sulfur
+Salicylic Acid+Glycolic Acid
+Salicylic Acid+Zinc Sulphate+Betamethasone
+Salicylic Acid+Liquor Picis Carbonis+Urea
+Salicyclic Acid
+Salicylic Acid+Triamcinolone Acetonide
+Salicylic Acid+Melia Azadirachta+Sulfur
+Salicylic Acid Methyl Ester+Menthol+Linolenic Acid+Benzyl Alcohol+Diclofenac
+Salicyclic Acid+Lactic Acid
+Salicylic
+Salicylic+Lactic Acid
+s=Molecules starting with s | PharmEasy
+]]></system-out>
+  </testcase>
+  <testcase name="Browseall_cities" classname="testmethod.Pharmeasy_footer1" time="2.103"/>
+  <testcase name="Mumbai" classname="testmethod.Pharmeasy_footer1" time="2.294"/>
+  <testcase name="Delhi" classname="testmethod.Pharmeasy_footer1" time="2.274"/>
+  <testcase name="Chennai" classname="testmethod.Pharmeasy_footer1" time="2.289"/>
+  <testcase name="Nagpur" classname="testmethod.Pharmeasy_footer1" time="2.243"/>
+  <testcase name="Browseall_stories" classname="testmethod.Pharmeasy_footer1" time="3.846"/>
+  <testcase name="Store_near" classname="testmethod.Pharmeasy_footer1" time="1.052">
+    <system-out><![CDATA[The box near it will displayed= true
+]]></system-out>
+  </testcase>
+  <testcase name="View_map" classname="testmethod.Pharmeasy_footer1" time="1.104">
+    <system-out><![CDATA[view more = https://pharmeasy.in/franchise-stores
+]]></system-out>
+  </testcase>
+</testsuite>

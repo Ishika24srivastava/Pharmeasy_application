@@ -1,0 +1,240 @@
+<html>
+<head>
+<title>TestNG:  Surefire test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Surefire test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>32/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Thu May 25 17:34:43 IST 2023</td>
+</tr>
+<tr><td>Total time:</td><td>100 seconds (100206 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='testmethod.Pharmeasy_footer1.Delhi()'><b>Delhi</b><br>Test class: testmethod.Pharmeasy_footer1</td>
+<td></td>
+<td>2</td>
+<td>testmethod.Pharmeasy_footer1@383bfa16</td></tr>
+<tr>
+<td title='testmethod.Pharmeasy_footer1.Browseall_moleculesH()'><b>Browseall_moleculesH</b><br>Test class: testmethod.Pharmeasy_footer1</td>
+<td></td>
+<td>2</td>
+<td>testmethod.Pharmeasy_footer1@383bfa16</td></tr>
+<tr>
+<td title='testmethod.Pharmeasy_footer1.Need_help()'><b>Need_help</b><br>Test class: testmethod.Pharmeasy_footer1</td>
+<td></td>
+<td>0</td>
+<td>testmethod.Pharmeasy_footer1@383bfa16</td></tr>
+<tr>
+<td title='testmethod.Pharmeasy_footer1.Ayurvediccare()'><b>Ayurvediccare</b><br>Test class: testmethod.Pharmeasy_footer1</td>
+<td></td>
+<td>10</td>
+<td>testmethod.Pharmeasy_footer1@383bfa16</td></tr>
+<tr>
+<td title='testmethod.Pharmeasy_footer1.Browseall_medicineB()'><b>Browseall_medicineB</b><br>Test class: testmethod.Pharmeasy_footer1</td>
+<td></td>
+<td>2</td>
+<td>testmethod.Pharmeasy_footer1@383bfa16</td></tr>
+<tr>
+<td title='testmethod.Pharmeasy_footer1.Browseall_medicineX()'><b>Browseall_medicineX</b><br>Test class: testmethod.Pharmeasy_footer1</td>
+<td></td>
+<td>2</td>
+<td>testmethod.Pharmeasy_footer1@383bfa16</td></tr>
+<tr>
+<td title='testmethod.Pharmeasy_footer1.Browseall_medicineK()'><b>Browseall_medicineK</b><br>Test class: testmethod.Pharmeasy_footer1</td>
+<td></td>
+<td>2</td>
+<td>testmethod.Pharmeasy_footer1@383bfa16</td></tr>
+<tr>
+<td title='testmethod.Pharmeasy_footer1.Mothercare()'><b>Mothercare</b><br>Test class: testmethod.Pharmeasy_footer1</td>
+<td></td>
+<td>6</td>
+<td>testmethod.Pharmeasy_footer1@383bfa16</td></tr>
+<tr>
+<td title='testmethod.Pharmeasy_footer1.Topproducts()'><b>Topproducts</b><br>Test class: testmethod.Pharmeasy_footer1</td>
+<td></td>
+<td>3</td>
+<td>testmethod.Pharmeasy_footer1@383bfa16</td></tr>
+<tr>
+<td title='testmethod.Pharmeasy_footer1.View_map()'><b>View_map</b><br>Test class: testmethod.Pharmeasy_footer1</td>
+<td></td>
+<td>1</td>
+<td>testmethod.Pharmeasy_footer1@383bfa16</td></tr>
+<tr>
+<td title='testmethod.Pharmeasy_footer1.Browseall_cities()'><b>Browseall_cities</b><br>Test class: testmethod.Pharmeasy_footer1</td>
+<td></td>
+<td>2</td>
+<td>testmethod.Pharmeasy_footer1@383bfa16</td></tr>
+<tr>
+<td title='testmethod.Pharmeasy_footer1.Browseall_stories()'><b>Browseall_stories</b><br>Test class: testmethod.Pharmeasy_footer1</td>
+<td></td>
+<td>3</td>
+<td>testmethod.Pharmeasy_footer1@383bfa16</td></tr>
+<tr>
+<td title='testmethod.Pharmeasy_footer1.Store_near()'><b>Store_near</b><br>Test class: testmethod.Pharmeasy_footer1</td>
+<td></td>
+<td>1</td>
+<td>testmethod.Pharmeasy_footer1@383bfa16</td></tr>
+<tr>
+<td title='testmethod.Pharmeasy_footer1.Browseall_medicineLast()'><b>Browseall_medicineLast</b><br>Test class: testmethod.Pharmeasy_footer1</td>
+<td></td>
+<td>2</td>
+<td>testmethod.Pharmeasy_footer1@383bfa16</td></tr>
+<tr>
+<td title='testmethod.Pharmeasy_footer1.Browseall_molecules()'><b>Browseall_molecules</b><br>Test class: testmethod.Pharmeasy_footer1</td>
+<td></td>
+<td>1</td>
+<td>testmethod.Pharmeasy_footer1@383bfa16</td></tr>
+<tr>
+<td title='testmethod.Pharmeasy_footer1.Diabeticcare()'><b>Diabeticcare</b><br>Test class: testmethod.Pharmeasy_footer1</td>
+<td></td>
+<td>4</td>
+<td>testmethod.Pharmeasy_footer1@383bfa16</td></tr>
+<tr>
+<td title='testmethod.Pharmeasy_footer1.Browseall_moleculesE()'><b>Browseall_moleculesE</b><br>Test class: testmethod.Pharmeasy_footer1</td>
+<td></td>
+<td>2</td>
+<td>testmethod.Pharmeasy_footer1@383bfa16</td></tr>
+<tr>
+<td title='testmethod.Pharmeasy_footer1.Nagpur()'><b>Nagpur</b><br>Test class: testmethod.Pharmeasy_footer1</td>
+<td></td>
+<td>2</td>
+<td>testmethod.Pharmeasy_footer1@383bfa16</td></tr>
+<tr>
+<td title='testmethod.Pharmeasy_footer1.Megasale()'><b>Megasale</b><br>Test class: testmethod.Pharmeasy_footer1</td>
+<td></td>
+<td>4</td>
+<td>testmethod.Pharmeasy_footer1@383bfa16</td></tr>
+<tr>
+<td title='testmethod.Pharmeasy_footer1.Browseall_medicine()'><b>Browseall_medicine</b><br>Test class: testmethod.Pharmeasy_footer1</td>
+<td></td>
+<td>2</td>
+<td>testmethod.Pharmeasy_footer1@383bfa16</td></tr>
+<tr>
+<td title='testmethod.Pharmeasy_footer1.Elderlycare()'><b>Elderlycare</b><br>Test class: testmethod.Pharmeasy_footer1</td>
+<td></td>
+<td>8</td>
+<td>testmethod.Pharmeasy_footer1@383bfa16</td></tr>
+<tr>
+<td title='testmethod.Pharmeasy_footer1.Browseall_moleculesM()'><b>Browseall_moleculesM</b><br>Test class: testmethod.Pharmeasy_footer1</td>
+<td></td>
+<td>2</td>
+<td>testmethod.Pharmeasy_footer1@383bfa16</td></tr>
+<tr>
+<td title='testmethod.Pharmeasy_footer1.Mumbai()'><b>Mumbai</b><br>Test class: testmethod.Pharmeasy_footer1</td>
+<td></td>
+<td>2</td>
+<td>testmethod.Pharmeasy_footer1@383bfa16</td></tr>
+<tr>
+<td title='testmethod.Pharmeasy_footer1.Featured_categories()'><b>Featured_categories</b><br>Test class: testmethod.Pharmeasy_footer1</td>
+<td></td>
+<td>0</td>
+<td>testmethod.Pharmeasy_footer1@383bfa16</td></tr>
+<tr>
+<td title='testmethod.Pharmeasy_footer1.Browseall_medicineC()'><b>Browseall_medicineC</b><br>Test class: testmethod.Pharmeasy_footer1</td>
+<td></td>
+<td>2</td>
+<td>testmethod.Pharmeasy_footer1@383bfa16</td></tr>
+<tr>
+<td title='testmethod.Pharmeasy_footer1.Accessories()'><b>Accessories</b><br>Test class: testmethod.Pharmeasy_footer1</td>
+<td></td>
+<td>4</td>
+<td>testmethod.Pharmeasy_footer1@383bfa16</td></tr>
+<tr>
+<td title='testmethod.Pharmeasy_footer1.Browseall_medicineR()'><b>Browseall_medicineR</b><br>Test class: testmethod.Pharmeasy_footer1</td>
+<td></td>
+<td>2</td>
+<td>testmethod.Pharmeasy_footer1@383bfa16</td></tr>
+<tr>
+<td title='testmethod.Pharmeasy_footer1.Homecare()'><b>Homecare</b><br>Test class: testmethod.Pharmeasy_footer1</td>
+<td></td>
+<td>6</td>
+<td>testmethod.Pharmeasy_footer1@383bfa16</td></tr>
+<tr>
+<td title='testmethod.Pharmeasy_footer1.Healthfood()'><b>Healthfood</b><br>Test class: testmethod.Pharmeasy_footer1</td>
+<td></td>
+<td>5</td>
+<td>testmethod.Pharmeasy_footer1@383bfa16</td></tr>
+<tr>
+<td title='testmethod.Pharmeasy_footer1.Homet()'><b>Homet</b><br>Test class: testmethod.Pharmeasy_footer1</td>
+<td></td>
+<td>2</td>
+<td>testmethod.Pharmeasy_footer1@383bfa16</td></tr>
+<tr>
+<td title='testmethod.Pharmeasy_footer1.Chennai()'><b>Chennai</b><br>Test class: testmethod.Pharmeasy_footer1</td>
+<td></td>
+<td>2</td>
+<td>testmethod.Pharmeasy_footer1@383bfa16</td></tr>
+<tr>
+<td title='testmethod.Pharmeasy_footer1.Browseall_moleculesS()'><b>Browseall_moleculesS</b><br>Test class: testmethod.Pharmeasy_footer1</td>
+<td></td>
+<td>2</td>
+<td>testmethod.Pharmeasy_footer1@383bfa16</td></tr>
+</table><p>
+</body>
+</html>
